@@ -37,4 +37,39 @@
     white-space: revert;
   }
 
-/*** kode css mulai dari baris ini ***/
+/*kode css mulai dari baris ini */
+body {
+  width: 100vw;
+}
+
+/* ini kode untuk navbar */
+nav {
+  padding: 2px;
+  border: 1px solid;
+  background-color: burlywood;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+/* navigasi kiri */
+li .kiri {
+  background-color: whitesmoke;
+  margin-left: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+  float: left;
+  display: inline;
+}
+
+/* navigasi kanan */
+li .kanan {
+  background-color: yellow;
+  margin-right: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+  float: right;
+  display: block;
+}
