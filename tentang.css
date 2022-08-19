@@ -38,3 +38,21 @@
   }
 
 /*** kode css mulai dari baris ini ***/
+body {
+    width: 1170px;
+    height: 500px;
+}
+
+.Tentang {
+    background-image: url(../img/BACKGROUND_KUCING.png);
+    background-size: cover;
+    padding: 180px;
+
+}
+
+.tentang-isi {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
