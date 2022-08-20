@@ -82,7 +82,7 @@ li .kanan {
 .pembuka1 {
   border: 1px solid black;
   padding: 20px;
-  margin: 10px;
+  margin: auto;
   text-align: center;
 }
 .pembuka1 h1 {
@@ -94,8 +94,8 @@ li .kanan {
 }
 
 .gambar-beranda {
+  margin: auto;
   border: 1px solid black;
-  margin: 10px;
   padding: 10px;
   position: relative;
   width: 100%;
@@ -114,17 +114,17 @@ li .kanan {
   font-size: 150%;
 }
 .image {
-  display: block;
-  width: 80%;
-  height: auto;
-  padding: 10px;
+  margin: auto;
+  width: auto;
+  padding: 5px;
 }
 .overlay {
+  margin: auto;
   position: absolute;
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgb(247, 164, 55);
   overflow: hidden;
   width: 100%;
   height: 0;
