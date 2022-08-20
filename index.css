@@ -37,7 +37,8 @@
     white-space: revert;
   }
 
-/*kode css mulai dari baris ini */
+/* -------------------------------------kode css mulai dari baris ini------------------------------------- */
+/* dimensi website */
 body {
   margin: auto;
   width: 800px;
@@ -82,13 +83,14 @@ li .kanan {
   display: inline;
   border-radius: 12px;
 }
+
+/* kalo diarahkan mouse, warna button berubah orenje*/
 li .kanan:hover {
   background-color: rgb(247, 164, 55);
 }
-/*style untuk konten*/
+/* -------------------------------------style untuk konten------------------------------------- */
 
-
-
+/* kontener gambar */
 .gambar-beranda {
   margin: auto;
   padding: 10px;
@@ -96,11 +98,15 @@ li .kanan:hover {
   width: 100%;
   background-color: #5e5e5d;
 }
+
+/* teks muncul ditengah kalo mouse ngarah kesini */
 .overlay {
   font-size: 20px;
   text-justify: auto;
   text-align: center;
 }
+
+
 .p1 span {
   color: green;
   font-size: 130%;
@@ -109,6 +115,8 @@ li .kanan:hover {
   color: blue;
   font-size: 150%;
 }
+
+/* teks selamat datang warna transparan */
 .center {
   display: block;
   margin: auto;
@@ -124,12 +132,16 @@ li .kanan:hover {
   color: white;
   font-size: 50px;
 }
+
+/*gambar meong anyink biar transparan dan jadi background */
 .image {
   margin: auto;
   width: auto;
   padding: 5px;
   opacity: 0.4;
 }
+
+/* ini background tulisan orenje kalo di mouse hover keluar ini */
 .overlay {
   margin: auto;
   position: absolute;
@@ -142,10 +154,12 @@ li .kanan:hover {
   height: 0;
   transition: .9s ease;
 }
+/* ini background tulisan orenje kalo di mouse hover keluar ini */
 .gambar-beranda:hover .overlay {
   bottom: 0;
   height: 100%;
 }
+/* ini background tulisan orenje kalo di mouse hover keluar ini */
 .text {
   white-space: nowrap; 
   color: white;
